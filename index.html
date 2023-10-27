@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mabeste United SMM Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mabeste United SMM Services</h1>
+    <div class="actions">
+        <button id="apiKeyBtn">Set API Key</button>
+        <button id="balanceBtn">Check Balance</button>
+        <button id="orderBtn">Place Order</button>
+        <button id="statusBtn">Check Order Status</button>
+    </div>
+    <div id="results" class="hidden">
+        <h2>Results</h2>
+        <div id="resultData"></div>
+    </div>
+    <div id="apiKeyModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Set Your API Key</h2>
+            <input type="text" id="apiKeyInput" placeholder="Enter API Key">
+            <button id="saveApiKey">Save</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
